@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(53, 53, 53);
+  color: rgb(133, 133, 133);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 10px;
+  padding: 50px;
+}
+
+form {
+    text-align: center;
+}
+
+#wod-name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+#wod-description {
+    font-size: 1.5rem;
+    margin: 1rem;
+
+}
+
+#wod-wod {
+    font-size: 1.3rem;
+    margin: 1rem;
+
+    
+}
+
+#wod-tips {
+    font-size: 1.3rem;
+    margin: 1rem;
+
+}
+
+#button {
+    font-size: 1.2em;
+    padding: 1em;
+    margin: 1rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
