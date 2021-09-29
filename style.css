@@ -2,18 +2,22 @@ body {
   background-color: rgb(53, 53, 53);
   color: rgb(133, 133, 133);
   font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
-
+/* 
 h1 {
   font-size: 2.5rem;
-  text-align: center;
   margin: 10px;
   padding: 50px;
 }
 
-form {
+h1, form {
     text-align: center;
 }
+
+form {
+}
+
 
 #wod-name {
     font-size: 2rem;
@@ -29,6 +33,7 @@ form {
 
 #wod-wod {
     font-size: 1.3rem;
+    line-height: 2rem;
     margin: 1rem;
 
     
@@ -39,6 +44,7 @@ form {
     margin: 1rem;
 
 }
+*/
 
 #button {
     font-size: 1.2em;
@@ -46,5 +52,6 @@ form {
     margin: 1rem;
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 0; 
 }
+
