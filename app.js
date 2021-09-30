@@ -1,6 +1,6 @@
-var NumberOfWods = 55
+const NumberOfWods = 55
 
-var wods = new BuildArray(NumberOfWods)
+const wods = new BuildArray(NumberOfWods)
 
 // Use the following variables to 
 // define your random wods:
@@ -10,9 +10,10 @@ wods[1] = {
     10 Min AMRAP
 
     30 DUs
-    15 Power Snatches 75/55 lbs
-
+    15 Power Snatches 75/55 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5% score: 338 reps (7 rounds + 23 DUs) 
     DUs unbroken 
     Split snatches to 2-3 sets with quick rest 
@@ -26,9 +27,10 @@ wods[2] = {
 
     9 Deadlifts 155 / 100 lbs
     12 HR Push Ups
-    15 Box Jumps 24 / 20″
-
+    15 Box Jumps 24 / 20″`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 408 reps(11 rounds + 3 HR push ups)
     Go unbroken on the deadlifts
     Recover on HR push ups, keep steady pace
@@ -44,9 +46,10 @@ wods[3] = {
     5 Min AMRAP
 
     Squat Clean 165 / 110 lbs
-    Jerk 165 / 110 lbs
-
+    Jerk 165 / 110 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 60 reps(30 + 30)
     Do only singles
     Steady pace from the beginning
@@ -61,9 +64,10 @@ wods[4] = {
 
     60 Bar Facing Burpees
     30 Overhead Squats 120 / 90 lbs
-    10 Muscle Ups
-
+    10 Muscle Ups`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 120 reps(1 round + 20 burpees)
     Steady pace on the burpees, step down / up to the burpee if you need to
     Try to do overhead squats in a few sets as possible, try 12 + 10 + 8 or 18 +
@@ -77,9 +81,10 @@ wods[5] = {
 
     5 Power Cleans 145 / 100 lbs
     10 Toes - to - Bars
-    15 Wall Balls 20 / 14 lbs
-
+    15 Wall Balls 20 / 14 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 330 reps(11 rounds)
     Single on power cleans
     TTB in 2 sets of 6 + 4
@@ -95,9 +100,10 @@ wods[6] = {
 
     3 - 6 - 9 - 12 - 15 - …
         Thrusters 100 / 65 lbs
-    Chest - to - Bar Pull Ups
-
+    Chest - to - Bar Pull Ups`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 121 reps(13 C2B in round of 18)
     Do max of 7 thrusters in 1 set with quick rest between sets
     Do max of 4 C2B in 1 set, it is worth to split even the set of 6 C2B to keep moving
@@ -109,9 +115,10 @@ wods[7] = {
     wod: `
     7 Min AMRAP
 
-    Target Burpees
-
+    Target Burpees`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 123 reps
     Just go and don’ t stop, steady pace, keep moving and improve the pace in the last minute
     `
@@ -125,9 +132,10 @@ wods[8] = {
     30 Snatches 75 / 45 lbs
     30 Snatches 135 / 75 lbs
     30 Snatches 165 / 100 lbs
-    Max Snatches 210 / 120 lbs
-
+    Max Snatches 210 / 120 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 75 reps(15 with 165 / 100 lbs)
     Do 12 + 10 + 8 or 6× 5 with 75 / 45 lbs
     On heavier weights go for singles with constant rest
@@ -141,9 +149,10 @@ wods[9] = {
 
     15 Box Jumps 24 / 20″
     12 Push Presses 115 / 75
-    9 Toes - to - Bars
-
+    9 Toes - to - Bars`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 367 reps(10 rounds + 7 box jumps)
     Rest on the top of the box to recover
     Push presses unbroken or in 2 sets of 7 + 5
@@ -158,9 +167,10 @@ wods[10] = {
 
     150 Wall Balls 20 / 14 lbs
     90 DUs
-    30 Muscle Ups
-
+    30 Muscle Ups`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 255 reps(15 muscle ups)
     On wall balls try multiple small sets with quick rest like 30 sets of 5 or try large / small set approach, this will allow you to do a lot of wall balls and recover with smaller set 40 + 10 + 10 + 30 + 10 + 10 + 20 + 20DUs in 2 or 3 sets, don’ t need to go unbroken as you need to recover before MU
     One large and multiple small sets on muscle ups
@@ -174,9 +184,10 @@ wods[11] = {
 
     3 - 6 - 9 - 12 - 15 - …
     Thrusters 100 / 65 lbs
-    Chest - to - Bar Pull Ups
-
+    Chest - to - Bar Pull Ups`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 121 reps(13 C2B in round of 18)
     Do max of 7 thrusters in 1 set with quick rest between sets
     Do max of 4 C2B in 1 set, it is worth to split even the set of 6 C2B to keep moving
@@ -195,9 +206,10 @@ wods[12] = {
     20 Target Burpees
     30 Snatches 165 / 100 lbs
     10 Target Burpees
-    Max Snatches 210 / 120 lbs
-
+    Max Snatches 210 / 120 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 160 reps(10 Snatches with 165 / 100 lbs)
     Steady pace on target burpees, don’ t stop, better to go slowly
     Singles on snatches except round with 75 / 45 lbs, go for sets of 5 - 10 reps there, try 12 + 10 + 8 or 6× 5
@@ -212,9 +224,10 @@ wods[13] = {
 
     5 Shoulder-to-Overhead 115/75 lbs
     10 Deadlifts 115/75 lbs
-    15 Box Jumps 24/20″
-
+    15 Box Jumps 24/20″`,
+    tips: `
     QUICK TIPS
+
     Top 5% score: 294 reps (9 rounds + 9 box jumps)
     Use your legs on shoulder-to-overhead -> do push jerks
     Finish 5 push jerks and 10 deadlifts unbroken
@@ -230,9 +243,10 @@ wods[14] = {
 
     150 Wall Balls 20 / 14 lbs
     90 DUs
-    30 Muscle Ups
-
+    30 Muscle Ups`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 255 reps(15 muscle ups)
     On wall balls try multiple small sets with quick rest like 30 sets of 5 or try large / small set approach, this will allow you to do a lot of wall balls and recover with smaller set 40 + 10 + 10 + 30 + 10 + 10 + 20 + 20
     DUs in 2 or 3 sets, don’ t need to go unbroken as you need to recover before MU
@@ -247,9 +261,10 @@ wods[15] = {
 
     3 - 6 - 9 - 12 - …
     Clean and Jerks 135 / 95 lbs
-    Toes - to - Bars
-
+    Toes - to - Bars`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 97 reps(5 rounds + 7 clean and jerks)
     Singles on clean and jerks
     Max of 6 reps on TTB
@@ -264,9 +279,10 @@ wods[16] = {
     15 Thrusters 100 / 65 lbs
     15 Chest - to - Bar Pull Ups
     Time extends by 4 minutes
-    for each 3 completed rounds
-
+    for each 3 completed rounds`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 89 reps
     The goal is to get over first 4 minutes
     Go hard on the thrusters
@@ -280,9 +296,10 @@ wods[17] = {
     10 Min AMRAP
 
     30 DUs
-    15 Power Snatches 75 / 55 lbs
-
+    15 Power Snatches 75 / 55 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 338 reps(7 rounds + 23 DUs)
     DUs unbroken
     Split snatches to 2 - 3 sets with quick rest
@@ -311,9 +328,10 @@ wods[18] = {
     14 Overhead Squats 95 / 65 lbs
     14 Chest - to - Bar Pull Ups
 
-    Etc., following same pattern until you fail to complete both rounds
-
+    Etc., following same pattern until you fail to complete both rounds`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 184 reps(40 reps in 9: 00 - 12: 00)
     Do overhead squats unbroken, rest enough before you start the set
     Small sets on C2B pull ups even singles can get you through round of 14 s
@@ -336,9 +354,10 @@ wods[19] = {
     30 Deadlifts 315 / 250 lbs
     15 Box Jumps 24 / 20″
     35 Deadlifts 365 / 225 lbs
-    15 Box Jumps 24 / 20″
-
+    15 Box Jumps 24 / 20″`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 140 reps(10 Deadlifts with 315 / 250 lbs)
     The lower back fatigue is main problem in this WOD
     Do max of 5 deadlifts in the set even with lighter weights and decrease this reps when weight gets heavier
@@ -355,9 +374,10 @@ wods[20] = {
     50 Toes - to - Bars
     40 Wall Balls 20 / 14 lbs
     30 Cleans 135 / 95 lbs
-    20 Muscle Ups
-
+    20 Muscle Ups`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 192 reps(12 Muscle Ups)
     Steady pace on the rower, don’ t start too quickly as it is the first exercise
     Small sets on TTB(4 - 5 reps) to avoid fatigue where you need to rest for long time or do singles
@@ -373,9 +393,10 @@ wods[21] = {
     For Time
     21 - 18 - 15 - 12 - 9 - 6 - 3
     Thrusters 95 / 65 lbs
-    Bar Facing Burpees
-
+    Bar Facing Burpees`,
+    tips: `
     QUICK TIPS
+
     Top 5 % time: 12: 22
     Do max of 7 thrusters unbroken even in set of 21, this will save your shoulders and your heart rate won’ t peak so high
     Steady pace on the burpees, step up and“ fall” down to burpees to save the energy
@@ -394,9 +415,10 @@ wods[22] = {
 
     Part B: 6 Minutes
 
-    for1 RM Clean and Jerk
-
+    for1 RM Clean and Jerk`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 173 reps(5 rounds + 8 deadlifts) + 265 lbs
     Do TTB in 3 or more sets
     It is also good idea to split the deadlifts to 2 sets
@@ -426,9 +448,10 @@ wods[23] = {
     14 Overhead Squats 95 / 65 lbs
     14 Chest - to - Bar Pull Ups
 
-    Etc., following same pattern until you fail to complete both rounds
-
+    Etc., following same pattern until you fail to complete both rounds`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 184 reps(40 reps in 9: 00 - 12: 00)
     Do overhead squats unbroken, rest enough before you start the set
     Small sets on C2B pull ups even singles can get you through round of 14 s
@@ -442,9 +465,10 @@ wods[24] = {
 
     7 Muscle Ups
     50 Wall Balls 20 / 14 lbs
-    100 DUs
-
+    100 DUs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 367 reps(2 rounds + 46 wall balls)
     Muscle ups in 2 sets or unbroken if you are great at them
     Wall balls in 1 large set and a few small sets or in many small sets like 10 sets of 5 with a quick rest
@@ -458,9 +482,10 @@ wods[25] = {
     8 Min AMRAP
 
     3 - 6 - 9 - 12 - 15 - 18 - 21 - …HSPU
-    3 - 3 - 3 - 6 - 6 - 6 - 9 - …Cleans 185 / 125 lbs
-
+    3 - 3 - 3 - 6 - 6 - 6 - 9 - …Cleans 185 / 125 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 82 reps
     Your goal is to avoid fatigue on HSPU, do only sets of 3 and 6 unbroken
     Singles on the cleans, go for power clean if you can
@@ -474,15 +499,16 @@ wods[26] = {
 
     27 - 21 - 15 - 9
     Row(calories)
-    Thrusters 95 / 65 lbs
-
+    Thrusters 95 / 65 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % time: 8: 45
     Steady pace on the rower, don’ t start too quickly with round of 27 cals, about 1200 cal / hr should be maintainable to get a good time Do max of 7 thrusters unbroken, this will save your heart rate so it won’ t peak so high
     `
 }
 
-wods[28] = {
+wods[27] = {
     name: ` 16.1`,
     wod: `
     20 Min AMRAP
@@ -490,9 +516,10 @@ wods[28] = {
     25 - ft.Overhead Walking Lunges 95 / 65 lbs
     8 Bar Facing Burpees
     25 - ft.Overhead Walking Lunges 95 / 65 lbs
-    8 Chest - to - Bar Pull Ups
-
+    8 Chest - to - Bar Pull Ups`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 230 reps(8 rounds + 4 pull ups)
     Do lunges unbroken
     Steady slow pace on burpees
@@ -500,7 +527,7 @@ wods[28] = {
     `
 }
 
-wods[29] = {
+wods[28] = {
     name: `16.2`,
     wod: `
     4 Min Time Cap for
@@ -519,9 +546,10 @@ wods[29] = {
     for other rounds + 4 minutes and decreased reps on squat cleans with increased weight
     25 TTB + 50 DUs + 11 Sq Cleans 225 / 145 lbs
     25 TTB + 50 DUs + 9 Sq Cleans 275 / 175 lbs
-    25 TTB + 50 DUs + 7 Sq Cleans 315 / 205 lbs
-
+    25 TTB + 50 DUs + 7 Sq Cleans 315 / 205 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 257 reps(2 rounds + 4 cleans with 225 / 145 lbs)
     There are 2 sticky points A) you will get fatigued on TTB or B) barbell will get too heavy
     Avoid TTB fatigue by doing only sets of 3 - 4 reps with quick rest(even from beginning)
@@ -530,15 +558,16 @@ wods[29] = {
     `
 }
 
-wods[30] = {
+wods[29] = {
     name: `16.3`,
     wod: `
     7 Min AMRAP
 
     10 Power Snatches 75 / 55 lbs
-    3 Bar Muscle Ups
-
+    3 Bar Muscle Ups`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 101 reps(7 rounds + 10 snatches)
     Split power snatches to 2 sets, this will allow you to be faster on muscle ups
     Jump right into muscle ups and do them unbroken
@@ -546,7 +575,7 @@ wods[30] = {
     `
 }
 
-wods[31] = {
+wods[30] = {
     name: `16.4`,
     wod: `
     13 Min AMRAP
@@ -554,9 +583,10 @@ wods[31] = {
     55 Deadlifts 225 / 155 lbs
     55 Wall Balls 20 / 14 lbs
     55 cal Row
-    55 HSPU
-
+    55 HSPU`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 205 reps(40 HSPU)
     Split deadlifts as much as you can, even 11 sets of 5 is good strategy to save energy for rest of the AMRAP
     On wall balls go for large set and a few small sets like 30 + 7 + 7 + 11 or for many small sets like the deadlifts(11× 5)
@@ -565,23 +595,24 @@ wods[31] = {
     `
 }
 
-wods[32] = {
+wods[31] = {
     name: `16.5`,
     wod: `
     For Time
 
     21 - 18 - 15 - 12 - 9 - 6 - 3
     Thrusters 95 / 65 lbs
-    Bar Facing Burpees
-
+    Bar Facing Burpees`,
+    tips: `
     QUICK TIPS
+
     Top 5 % time: 12: 22
     Do max of 7 thrusters unbroken even in set of 21, this will save your shoulders and your heart rate won’ t peak so high
     Steady pace on the burpees, step up and“ fall” down to burpees to save the energy
     `
 }
 
-wods[33] = {
+wods[32] = {
     name: `17.1`,
     wod: `
     For Time
@@ -595,16 +626,17 @@ wods[33] = {
     40 Dumbbell Snatch 50 / 35 lbs
     15 Burpee Box Jump Overs 24 / 20″
     50 Dumbbell Snatch 50 / 35 lbs
-    15 Burpee Box Jump Overs 24 / 20″
-
+    15 Burpee Box Jump Overs 24 / 20″`,
+    tips: `
     QUICK TIPS
+
     Top 5 % time: 15: 05
     Switch hands in the air on snatches
     Recover with slower pace on BBJO
     `
 }
 
-wods[34] = {
+wods[33] = {
     name: `17.2`,
     wod: `
     12 Min AMRAP
@@ -617,9 +649,10 @@ wods[34] = {
     2 Rounds of:
     50 feet Dumbbell Walking Lunges 2× 50 / 35 lbs
     16 Bar Muscle Ups
-    8 Dumbbell Power Cleans 2× 50 / 35 lbs
-
+    8 Dumbbell Power Cleans 2× 50 / 35 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 214 reps(4 rounds + 30 - ft lunges)
     Go unbroken on lunges
     Split TTB and Bar MU more than you need and recover there
@@ -629,7 +662,7 @@ wods[34] = {
     `
 }
 
-wods[35] = {
+wods[34] = {
     name: ` 17.3`,
     wod: `
     Prior to 8: 00, complete:
@@ -644,9 +677,10 @@ wods[35] = {
         8 Chest to Bar Pull Ups
     4 Squat Snatches 185 / 135 lbs
     Same rules applies to other rounds, +4 minutes
-    if you finish 3 rounds, +1 C2B and - 1 Squat Snatch, weight goes up to 225 / 155, 245 / 175 and 265 / 185 lbs
-
+    if you finish 3 rounds, +1 C2B and - 1 Squat Snatch, weight goes up to 225 / 155, 245 / 175 and 265 / 185 lbs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 104 reps(8 rounds + 8 pull ups)
     Singles on snatches(even with 95 lbs)
     Small sets on C2B pull ups
@@ -656,7 +690,7 @@ wods[35] = {
     `
 }
 
-wods[36] = {
+wods[35] = {
     name: ` 17.4`,
     wod: `
     13 Min AMRAP
@@ -664,9 +698,10 @@ wods[36] = {
     55 Deadlifts 225 / 155 lbs
     55 Wall Balls 20 / 14 lbs
     55 cal Row
-    55 HSPU
-
+    55 HSPU`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 205 reps(40 HSPU)
     Split deadlifts as much as you can, even 11 sets of 5 is good strategy to save energy for rest of the AMRAP
     On wall balls go for large set and a few small sets like 30 + 7 + 7 + 11 or for many small sets like the deadlifts(11× 5)
@@ -675,15 +710,16 @@ wods[36] = {
     `
 }
 
-wods[37] = {
+wods[36] = {
     name: ` 17.5`,
     wod: `
     10 Rounds of
 
     9 Thrusters 95 / 65 lbs
-    35 DUs
-
+    35 DUs`,
+    tips: `
     QUICK TIPS
+
     Top 5 % time: 11: 11
     Do thrusters unbroken only if you aim for time under 9: 00 otherwise go for 5 + 4 with a quick rest
     Rest in thrusters will allow you to minimize transition before / after DUs
@@ -691,16 +727,17 @@ wods[37] = {
     `
 }
 
-wods[38] = {
+wods[37] = {
     name: ` 18.1`,
     wod: `
     20 Min AMRAP
 
     18 toes - to - bars
     10 dumbbell hang clean and jerks
-    14 - cal.row
-
+    14 - cal.row`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 11 rounds + 11 reps
     Split TTB to + 3 sets
     Unbroken on hang clean jerks
@@ -708,7 +745,7 @@ wods[38] = {
     `
 }
 
-wods[39] = {
+wods[38] = {
     name: ` 18.2`,
     wod: `
     In 12  min Time Cap:
@@ -718,9 +755,10 @@ wods[39] = {
     Bar - facing burpees
 
     If first completed in less than 12 mins:
-    1 - rep - max clean
-
+    1 - rep - max clean`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 6: 00
     First half is of WOD is 1… 7, pace accordingly
     It is worth to do all sets unbroken but make sure to not rush too much at the beginning
@@ -729,7 +767,7 @@ wods[39] = {
     `
 }
 
-wods[40] = {
+wods[39] = {
     name: ` 18.3`,
     wod: `
     2 rounds for time of:
@@ -743,9 +781,10 @@ wods[40] = {
     100 double - unders
     12 bar muscle - ups
     Men perform 115 - lb.OHS, 50 - lb.DB snatches
-    Time cap: 14 minutes
-
+    Time cap: 14 minutes`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 1 rounds + 100 DU + 10 OHS
     DUs are main sticking point here
     Better to do 40 + 30 + 30 then failing in later rounds
@@ -753,7 +792,7 @@ wods[40] = {
     `
 }
 
-wods[41] = {
+wods[40] = {
     name: ` 18.4`,
     wod: `
     For time:
@@ -770,31 +809,33 @@ wods[41] = {
     50 - ft.handstand walk
     9 deadlifts, 315 lb.
     50 - ft.handstand walk
-    Time cap: 9 min.
-
+    Time cap: 9 min.`,
+    tips: `
     QUICK TIPS
+
     Top 5 % score: 114 reps(last handstand walk 15 feet)
     Split deadlifts as much as you can, especially first rounds with lighter weights
     Short distance burts on handstand walks will be much faster than full unbroken distances
     `
 }
 
-wods[42] = {
+wods[41] = {
     name: ` 18.5`,
     wod: `
     7 Min AMRAP
 
     3 - 6 - 9 - …thrusters 100 lbs
-    3 - 6 - 9 - …chest - to - bar pull - ups
-
+    3 - 6 - 9 - …chest - to - bar pull - ups`,
+    tips: `
     QUICK TIPS
+
     Top 5 % time: 13 pull ups in round of 18 s
     Do max of 6 thrusters in set, always drop the bar, reset quickly and pick it up again
     Small sets on C2B, even sets of 3 reps should work great
     `
 }
 
-wods[43] = {
+wods[42] = {
     name: ` 19.1`,
     wod: `
     Complete as many rounds as possible in 15 minutes of
@@ -803,10 +844,13 @@ wods[43] = {
     19 - cal.row
     M 20 - lb.wall ball to 10 ft.
     W 14 - lb.wall ball to 9 ft.
+    `,
+    tips: `
+    TBA
     `
 }
 
-wods[44] = {
+wods[43] = {
     name: ` 19.2`,
     wod: `
     Beginning on an 8 - minute clock, complete as many reps as possible of:
@@ -834,10 +878,13 @@ wods[44] = {
     25 toes - to - bars
     50 double - unders
     7 squat cleans, 315 / 205 lb.
+    `,
+    tips: `
+    TBA
     `
 }
 
-wods[45] = {
+wods[44] = {
     name: ` 19.3`,
     wod: `
     For time:
@@ -848,10 +895,13 @@ wods[45] = {
     200 - ft.handstand walk
     Men 50 - lb.dumbbell / 24 - in .box
     Women 35 - lb.dumbbell / 20 - in .box
+    `,
+    tips: `
+    TBA
     `
 }
 
-wods[46] = {
+wods[45] = {
     name: ` 19.4`,
     wod: `
     For total time:
@@ -868,10 +918,13 @@ wods[46] = {
     12 bar - facing burpees
     Men 95 lb.
     Women 65 lb.
+    `,
+    tips: `
+    TBA
     `
 }
 
-wods[47] = {
+wods[46] = {
     name: ` 19.5`,
     wod: `
     33 - 27 - 21 - 15 - 9 reps
@@ -882,11 +935,13 @@ wods[47] = {
     Chest - to - bar pull - ups
     Men 95 lb.
     Women 65 lb.
-
+    `,
+    tips: `
+    TBA
     `
 }
 
-wods[48] = {
+wods[47] = {
     name: ` 20.1`,
     wod: `
     10 rounds
@@ -896,10 +951,13 @@ wods[48] = {
     10 bar - facing burpees
 
     Time cap: 15 minutes
+    `,
+    tips: `
+    TBA
     `
 }
 
-wods[49] = {
+wods[48] = {
     name: `20.2`,
     wod: `
     Complete as many rounds as possible in 20 minutes of:
@@ -909,11 +967,13 @@ wods[49] = {
     24 double - unders
 
     50 - lb.dumbbells
-
+    `,
+    tips: `
+    TBA 
     `
 }
 
-wods[50] = {
+wods[49] = {
     name: `20.3`,
     wod: `
     For time:
@@ -932,10 +992,13 @@ wods[50] = {
     50 - ft.handstand walk
 
     Time cap: 9 min.
+    `,
+    tips: `
+    TBA 
     `
 }
 
-wods[51] = {
+wods[50] = {
     name: `20.4`,
     wod: `
     For time:
@@ -954,10 +1017,13 @@ wods[51] = {
     5 clean and jerks, 315 lb.
 
     Time cap: 20 minutes
-    `
+    `,
+    tips: `
+    TBA `
+
 }
 
-wods[52] = {
+wods[51] = {
     name: `20.5`,
     wod: `
     For time, partitioned any way:
@@ -967,11 +1033,13 @@ wods[52] = {
     120 wall - ball shots, 20 - lb.ball to 10 ft.
 
     Time cap: 20 min.
-
+    `,
+    tips: `
+    TBA 
     `
 }
 
-wods[53] = {
+wods[52] = {
     name: `21.1`,
     wod: `
     For time:
@@ -990,10 +1058,13 @@ wods[53] = {
     210 double - unders
 
     Time cap: 15 min.
+    `,
+    tips: `
+    TBA 
     `
 }
 
-wods[54] = {
+wods[53] = {
     name: `21.2`,
     wod: `
     For time:
@@ -1012,11 +1083,14 @@ wods[54] = {
     50 - lb.dumbbell, 24 - in .box
 
     Time cap: 20 min.
+    `,
+    tips: `
+    TBA 
     `
 }
 
-wods[55] = {
-    name: `21.3 + 21.4`,
+wods[54] = {
+    name: `21.3`,
     wod: `
     For total time:
 
@@ -1049,14 +1123,15 @@ wods[55] = {
     1 clean
     1 hang clean
     1 jerk
+    `,
+    tips: `
+    TBA 
     `
 }
 
-// const rows = text.split('/n')
-
 function BuildArray(size) {
     this.length = size
-    for (var i = 1; i <= size; i++) {
+    for (let i = 1; i <= size; i++) {
         this[i] = null
     }
     return this;
@@ -1064,10 +1139,10 @@ function BuildArray(size) {
 
 function PickRandomWod(frm) {
     // Generate a random number between 1 and NumberOfWods
-    var rnd = Math.ceil(Math.random() * NumberOfWods)
+    let rnd = Math.ceil(Math.random() * NumberOfWods)
 
     //display wods inside div
-    document.getElementById("wod-name").textContent = wods[rnd].name;
-    document.getElementById("wod-wod").innerHTML = wods[rnd].wod.replace(/(\r\n|\n|\r)/gm, "<br>");
-
+    document.getElementById("WodName").textContent = wods[rnd].name;
+    document.getElementById("WodWod").innerHTML = wods[rnd].wod.replace(/(\r\n|\n|\r)/gm, "<br>");
+    document.getElementById("WodTips").innerHTML = wods[rnd].tips;
 }

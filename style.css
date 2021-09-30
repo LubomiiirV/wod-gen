@@ -1,57 +1,49 @@
 body {
-  background-color: rgb(53, 53, 53);
-  color: rgb(133, 133, 133);
-  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/bg/3253784.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-color: rgba(5,64,124,255);
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
-/* 
+
 h1 {
+  background-color: rgba(0, 0, 0, 0.26);
   font-size: 2.5rem;
-  margin: 10px;
-  padding: 50px;
+  margin: 0;
 }
 
-h1, form {
-    text-align: center;
-}
-
+h1,
 form {
+  text-align: center;
 }
 
-
-#wod-name {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 1rem;
+#WodName {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 50px;
+  margin-top: 150px;
 }
 
-#wod-description {
-    font-size: 1.5rem;
-    margin: 1rem;
-
+#WodWod {
+  font-size: 2rem;
+  padding: 0 30px 0;
 }
 
-#wod-wod {
-    font-size: 1.3rem;
-    line-height: 2rem;
-    margin: 1rem;
-
-    
+#WodTips {
+  font-size: 1rem;
+  padding: 50px 50px 0 50px;
 }
-
-#wod-tips {
-    font-size: 1.3rem;
-    margin: 1rem;
-
-}
-*/
 
 #button {
-    font-size: 1.2em;
-    padding: 1em;
-    margin: 1rem;
-    position: fixed;
-    bottom: 0;
-    right: 0; 
+  font-size: 1.2em;
+  padding: 0.5em;
+  margin: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 6px;
 }
-
