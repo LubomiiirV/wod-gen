@@ -1,9 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("3253784.jpg");
-  background-size:contain;
-  background-repeat: no-repeat;
   background-color: rgba(5,64,124,255);
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
@@ -24,8 +21,8 @@ form {
 #WodName {
   font-size: 2rem;
   font-weight: bold;
-  padding-top: 50px;
-  margin-top: 150px;
+
+
 }
 
 #WodWod {
