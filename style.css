@@ -44,3 +44,15 @@ form {
   right: 0;
   border-radius: 6px;
 }
+
+@media screen and (min-width: 992px) {
+  #button {
+    font-size: 42px;
+    position: inherit;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+}
