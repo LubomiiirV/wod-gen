@@ -1,9 +1,11 @@
-const NumberOfWods = 55
+const NumberOfWods = 58
 
 const wods = new BuildArray(NumberOfWods)
 
 // Use the following variables to 
 // define your random wods:
+wods[0]
+
 wods[1] = {
     name: `11.1`,
     wod: `
@@ -1127,6 +1129,54 @@ wods[54] = {
     tips: `
     TBA 
     `
+}
+
+wods[55] = {
+    name: `22.1`,
+    wod: `
+    Complete as many rounds as possible in 15 minutes of:
+
+    3 wall walks
+    12 dumbbell snatches
+    15 box jump-overs
+    
+    50-lb dumbbell, 24-in box
+    `,
+    tips: ``
+}
+
+wods[56] = {
+    name: `22.2`,
+    wod: `
+    1-2-3-4-5-6-7-8-9-10-9-8-7-6-5-4-3-2-1 reps for time of:
+
+    Deadlifts
+    Bar-facing burpees
+
+    225-lb barbell
+
+    Time cap: 10 minutes
+    `,
+    tips: ``
+}
+
+wods[57] = {
+    name: `22.3`,
+    wod: `For time:
+    21 pull-ups
+    42 double-unders
+    21 thrusters (weight 1)
+    18 chest-to-bar pull-ups
+    36 double-unders
+    18 thrusters (weight 2)
+    15 bar muscle-ups
+    30 double-unders
+    15 thrusters (weight 3)
+    
+    95 lb, then 115 lb, then 135 lb
+    
+    Time cap: 12 minutes`,
+    tips: ``
 }
 
 function BuildArray(size) {
